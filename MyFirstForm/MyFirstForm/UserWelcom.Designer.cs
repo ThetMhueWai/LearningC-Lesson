@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.lblUserWelcome = new System.Windows.Forms.Label();
+            this.btnPressMe = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblUserWelcome
@@ -42,11 +43,23 @@
             this.lblUserWelcome.TabIndex = 0;
             this.lblUserWelcome.Text = "User Welcome";
             // 
+            // btnPressMe
+            // 
+            this.btnPressMe.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnPressMe.Location = new System.Drawing.Point(115, 130);
+            this.btnPressMe.Name = "btnPressMe";
+            this.btnPressMe.Size = new System.Drawing.Size(75, 23);
+            this.btnPressMe.TabIndex = 1;
+            this.btnPressMe.Text = "Press Me";
+            this.btnPressMe.UseVisualStyleBackColor = false;
+            this.btnPressMe.Click += new System.EventHandler(this.btnPressMe_Click);
+            // 
             // UserWelcom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(321, 275);
+            this.Controls.Add(this.btnPressMe);
             this.Controls.Add(this.lblUserWelcome);
             this.Name = "UserWelcom";
             this.Text = "User Welcome";
@@ -58,6 +71,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblUserWelcome;
+        private System.Windows.Forms.Button btnPressMe;
     }
 }
 

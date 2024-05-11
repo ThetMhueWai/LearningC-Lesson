@@ -16,5 +16,10 @@ namespace MyFirstForm
         {
             InitializeComponent();
         }
+
+        private void btnPressMe_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello Thet Mhue");
+        }
     }
 }
