@@ -19,7 +19,19 @@ namespace MyFirstForm
 
         private void btnPressMe_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello Thet Mhue");
+            MessageBox.Show("Hello " + txtName.Text);
+            txtName.Text = "";
+            txtName.Focus();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtName.Text = "";
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
