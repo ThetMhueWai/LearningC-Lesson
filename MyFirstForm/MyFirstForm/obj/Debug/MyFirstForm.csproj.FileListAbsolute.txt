@@ -1,0 +1,9 @@
+D:\DDOOCP\MyFirstForm\MyFirstForm\bin\Debug\MyFirstForm.exe.config
+D:\DDOOCP\MyFirstForm\MyFirstForm\bin\Debug\MyFirstForm.exe
+D:\DDOOCP\MyFirstForm\MyFirstForm\bin\Debug\MyFirstForm.pdb
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.csprojResolveAssemblyReference.cache
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.Properties.Resources.resources
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.UserWelcom.resources
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.csproj.GenerateResource.Cache
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.exe
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.pdb
