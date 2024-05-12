@@ -8,3 +8,4 @@ D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.csproj.GenerateResource.
 D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.exe
 D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.pdb
 D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.Calculator.resources
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.ConvertVsParse.resources
