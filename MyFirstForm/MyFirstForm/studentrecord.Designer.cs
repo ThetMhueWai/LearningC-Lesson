@@ -38,9 +38,9 @@
             this.txtdof = new System.Windows.Forms.TextBox();
             this.rdomale = new System.Windows.Forms.RadioButton();
             this.rdofemale = new System.Windows.Forms.RadioButton();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbocourse = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.lblDisolay = new System.Windows.Forms.Label();
+            this.lblDisplay = new System.Windows.Forms.Label();
             this.btnrecord = new System.Windows.Forms.Button();
             this.btnexit = new System.Windows.Forms.Button();
             this.gbstudent.SuspendLayout();
@@ -48,7 +48,7 @@
             // 
             // gbstudent
             // 
-            this.gbstudent.Controls.Add(this.comboBox1);
+            this.gbstudent.Controls.Add(this.cbocourse);
             this.gbstudent.Controls.Add(this.rdofemale);
             this.gbstudent.Controls.Add(this.rdomale);
             this.gbstudent.Controls.Add(this.txtdof);
@@ -136,18 +136,18 @@
             this.rdofemale.Text = "Female";
             this.rdofemale.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cbocourse
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbocourse.FormattingEnabled = true;
+            this.cbocourse.Items.AddRange(new object[] {
             "L3DC",
             "L4DC",
             "L5DC",
             "Final Year"});
-            this.comboBox1.Location = new System.Drawing.Point(175, 174);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(133, 21);
-            this.comboBox1.TabIndex = 8;
+            this.cbocourse.Location = new System.Drawing.Point(175, 174);
+            this.cbocourse.Name = "cbocourse";
+            this.cbocourse.Size = new System.Drawing.Size(133, 21);
+            this.cbocourse.TabIndex = 8;
             // 
             // checkBox1
             // 
@@ -159,13 +159,13 @@
             this.checkBox1.Text = "I accept the policy";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // lblDisolay
+            // lblDisplay
             // 
-            this.lblDisolay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblDisolay.Location = new System.Drawing.Point(426, 52);
-            this.lblDisolay.Name = "lblDisolay";
-            this.lblDisolay.Size = new System.Drawing.Size(262, 228);
-            this.lblDisolay.TabIndex = 2;
+            this.lblDisplay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblDisplay.Location = new System.Drawing.Point(426, 52);
+            this.lblDisplay.Name = "lblDisplay";
+            this.lblDisplay.Size = new System.Drawing.Size(262, 228);
+            this.lblDisplay.TabIndex = 2;
             // 
             // btnrecord
             // 
@@ -175,6 +175,7 @@
             this.btnrecord.TabIndex = 3;
             this.btnrecord.Text = "Record";
             this.btnrecord.UseVisualStyleBackColor = true;
+            this.btnrecord.Click += new System.EventHandler(this.btnrecord_Click);
             // 
             // btnexit
             // 
@@ -184,6 +185,7 @@
             this.btnexit.TabIndex = 4;
             this.btnexit.Text = "Exit";
             this.btnexit.UseVisualStyleBackColor = true;
+            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
             // studentrecord
             // 
@@ -194,7 +196,7 @@
             this.ClientSize = new System.Drawing.Size(718, 376);
             this.Controls.Add(this.btnexit);
             this.Controls.Add(this.btnrecord);
-            this.Controls.Add(this.lblDisolay);
+            this.Controls.Add(this.lblDisplay);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.gbstudent);
             this.Name = "studentrecord";
@@ -213,13 +215,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbocourse;
         private System.Windows.Forms.RadioButton rdofemale;
         private System.Windows.Forms.RadioButton rdomale;
         private System.Windows.Forms.TextBox txtdof;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label lblDisolay;
+        private System.Windows.Forms.Label lblDisplay;
         private System.Windows.Forms.Button btnrecord;
         private System.Windows.Forms.Button btnexit;
     }
