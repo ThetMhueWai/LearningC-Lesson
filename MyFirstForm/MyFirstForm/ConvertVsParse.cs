@@ -19,6 +19,7 @@ namespace MyFirstForm
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            
             int a;
             string b = null;
             if(b == null)
@@ -27,8 +28,15 @@ namespace MyFirstForm
                 MessageBox.Show("Converting String is a numeric representation: " + a);
             }
             
-            
-
+            /*
+            int a;
+            string b = null;
+            if (b == null)
+            {
+                a = Int32.Parse(b);
+                MessageBox.Show("Converting String is a numeric representation: " + a);
+            }
+            */
         }
     }
 }
