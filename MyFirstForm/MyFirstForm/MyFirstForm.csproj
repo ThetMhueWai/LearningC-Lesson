@@ -56,11 +56,23 @@
     <Compile Include="ConvertVsParse.Designer.cs">
       <DependentUpon>ConvertVsParse.cs</DependentUpon>
     </Compile>
+    <Compile Include="formatException.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formatException.Designer.cs">
+      <DependentUpon>formatException.cs</DependentUpon>
+    </Compile>
     <Compile Include="studentrecord.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="studentrecord.Designer.cs">
       <DependentUpon>studentrecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentResult.Designer.cs">
+      <DependentUpon>StudentResult.cs</DependentUpon>
     </Compile>
     <Compile Include="UserWelcom.cs">
       <SubType>Form</SubType>
@@ -76,6 +88,9 @@
     <EmbeddedResource Include="ConvertVsParse.resx">
       <DependentUpon>ConvertVsParse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formatException.resx">
+      <DependentUpon>formatException.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -87,6 +102,9 @@
     </Compile>
     <EmbeddedResource Include="studentrecord.resx">
       <DependentUpon>studentrecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentResult.resx">
+      <DependentUpon>StudentResult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserWelcom.resx">
       <DependentUpon>UserWelcom.cs</DependentUpon>

@@ -10,3 +10,5 @@ D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.pdb
 D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.Calculator.resources
 D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.ConvertVsParse.resources
 D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.studentrecord.resources
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.StudentResult.resources
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.formatException.resources

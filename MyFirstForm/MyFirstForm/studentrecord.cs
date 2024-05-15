@@ -47,5 +47,10 @@ namespace MyFirstForm
         {
             Application.Exit();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            btnrecord.Enabled = checkBox1.Checked;
+        }
     }
 }

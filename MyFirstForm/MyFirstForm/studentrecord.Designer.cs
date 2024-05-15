@@ -158,6 +158,7 @@
             this.checkBox1.TabIndex = 1;
             this.checkBox1.Text = "I accept the policy";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // lblDisplay
             // 
@@ -169,6 +170,7 @@
             // 
             // btnrecord
             // 
+            this.btnrecord.Enabled = false;
             this.btnrecord.Location = new System.Drawing.Point(472, 296);
             this.btnrecord.Name = "btnrecord";
             this.btnrecord.Size = new System.Drawing.Size(75, 23);
