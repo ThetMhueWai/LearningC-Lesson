@@ -16,7 +16,7 @@ namespace MyFirstForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formatException());
+            Application.Run(new IndexOutOfRangeException());
         }
     }
 }
