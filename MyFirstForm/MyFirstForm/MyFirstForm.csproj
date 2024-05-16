@@ -62,6 +62,12 @@
     <Compile Include="formatException.Designer.cs">
       <DependentUpon>formatException.cs</DependentUpon>
     </Compile>
+    <Compile Include="IndexOutOfRangeException.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndexOutOfRangeException.Designer.cs">
+      <DependentUpon>IndexOutOfRangeException.cs</DependentUpon>
+    </Compile>
     <Compile Include="studentrecord.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formatException.resx">
       <DependentUpon>formatException.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndexOutOfRangeException.resx">
+      <DependentUpon>IndexOutOfRangeException.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
