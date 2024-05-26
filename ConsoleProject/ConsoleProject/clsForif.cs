@@ -6,20 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleProject
 {
-    class clsChap4
+    class clsForif
     {
         static void Main(string[] args)
-        
-        
         {
-            
-            int i;
-            for (i = 1; i <= 6; i++)
+            for (int i = 1; i < 10; i++)
             {
-                Console.WriteLine("The Value of i: " + i);
+                if ((i % 2) != 0)
+                {
+                    Console.WriteLine(i);
+                }
             }
             Console.ReadLine();
-            
         }
     }
 }

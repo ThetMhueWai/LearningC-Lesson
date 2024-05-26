@@ -12,3 +12,4 @@ D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.ConvertVsParse.resources
 D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.studentrecord.resources
 D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.StudentResult.resources
 D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.formatException.resources
+D:\DDOOCP\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.IndexOutOfRangeException.resources

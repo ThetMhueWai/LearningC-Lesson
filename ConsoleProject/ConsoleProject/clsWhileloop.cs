@@ -6,20 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleProject
 {
-    class clsChap4
+    class clsWhileloop
     {
         static void Main(string[] args)
-        
-        
         {
-            
-            int i;
-            for (i = 1; i <= 6; i++)
+            int i = 11;
+            while (i < 10)
             {
-                Console.WriteLine("The Value of i: " + i);
+                Console.Write(i);
+                i++;
             }
             Console.ReadLine();
-            
         }
     }
 }
