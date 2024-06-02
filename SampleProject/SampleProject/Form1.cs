@@ -94,9 +94,9 @@ namespace SampleProject
                 MessageBox.Show("Fill Admin Phone Number!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtaPhone.Focus();
             }
-            else if(txtaPassword.Text.Length >= 8 || txtaPassword.Text.Length < 16)
+            else if (password.Length < 8 || password.Length > 14)
             {
-                MessageBox.Show("Please Vaild Password Length, Should enter between 8 and 16", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please Vaild Password Length, should enter between 8 and 16", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtaPassword.Focus();
             }
             else if (!password.Any(char.IsUpper))
@@ -115,8 +115,23 @@ namespace SampleProject
                 txtaPassword.Focus();
             }
             else
-            { 
-                
+            {
+                ClsStaff staffs = new ClsStaff();
+                staffs.SID = txtAID.Text;
+                staffs.SName = txtaName.Text;
+                staffs.SEmail = txtaEmail.Text;
+                staffs.SAddress = txtaAddress.Text;
+                staffs.SPassword = txtaPassword.Text;
+                staffs.SPhone = txtaPhone.Text;
+
+                int insertquery = staff.InsertStaffQuery(staffs.SID, staffs.SName, staffs.SEmail, staffs.SPhone, staffs.SPassword, staffs.SAddress);
+
+                if (insertquery > 0)
+                {
+                    MessageBox.Show("Admin data insert Successfully Save","Success",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                    Clearall();
+                    staffAutoID();
+                }
             }
         }
     }

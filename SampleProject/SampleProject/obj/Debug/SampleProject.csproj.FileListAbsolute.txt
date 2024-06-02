@@ -7,3 +7,4 @@ D:\DDOOCP\SampleProject\SampleProject\obj\Debug\SampleProject.Properties.Resourc
 D:\DDOOCP\SampleProject\SampleProject\obj\Debug\SampleProject.csproj.GenerateResource.Cache
 D:\DDOOCP\SampleProject\SampleProject\obj\Debug\SampleProject.exe
 D:\DDOOCP\SampleProject\SampleProject\obj\Debug\SampleProject.pdb
+D:\DDOOCP\SampleProject\SampleProject\obj\Debug\SampleProject.StaffLogin.resources
